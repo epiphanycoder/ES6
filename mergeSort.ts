@@ -1,3 +1,4 @@
+// https://gist.github.com/joelpalmer/beab8d9a2de02c39ae09fea50dab5ea5
 function mergeSort(items, compare = (x,y) => { return x < y}){
     console.log(items);
     if(items.length <=  1) {
